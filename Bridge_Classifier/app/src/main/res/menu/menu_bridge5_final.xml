@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.usma.park.bridge_classifier.Bridge5Final">
+    <item android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never" />
+</menu>

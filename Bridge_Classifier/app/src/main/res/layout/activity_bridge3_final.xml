@@ -1,0 +1,110 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Classification:"
+        android:textSize="30sp"
+        android:paddingBottom = "10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="T1"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="T2"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="W1"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="W2"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Null"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Null"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/w1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Null"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/w2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Null"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:paddingBottom="30dp"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <!-- Warnings-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Warnings:"
+                android:textSize="24sp"/>
+            <TextView
+                android:id="@+id/warnings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Null"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

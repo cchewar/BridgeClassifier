@@ -1,0 +1,85 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+<!-- Timber Stringer Bridge with Timber Deck-->
+        <Button
+            android:id = "@+id/bridge1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/timberstringertimberdeck"
+            android:layout_margin="10dp"
+            android:text="Timber Stringer Bridge\nwith Timber Deck\n\n\n\n\n\n\n\n\n"/>
+<!-- Steel Stringer Bridge with Timber Deck-->
+        <Button
+            android:id = "@+id/bridge2"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/steelstringertimberdeck"
+            android:layout_margin="10dp"
+            android:text="Steel Stringer Bridge\nwith Timber Deck\n\n\n\n\n\n\n\n\n\n"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+<!-- Steel Stringer Bridge with Concrete Deck-->
+        <Button
+            android:id = "@+id/bridge3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/steelstringerconcretedeck"
+            android:layout_margin="10dp"
+            android:text="Steel Stringer Bridge\nwith Concrete Deck\n\n\n\n\n\n\n\n\n"/>
+<!--Reinforced Concrete T-Beam With Asphalt Wearing Surface -->
+        <Button
+            android:id = "@+id/bridge4"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/concretetbeam"
+            android:layout_margin="10dp"
+            android:text="Reinforced Concrete T-Beam\nwith Asphalt Wearing Surface\n\n\n\n\n\n\n\n\n"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+<!-- Reinforced Concrete-Slab Bridge With Asphalt Wearing Surface-->
+        <Button
+            android:id = "@+id/bridge5"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/concreteslab"
+            android:layout_margin="10dp"
+            android:text="Reinforced Concrete-Slab Bridge\nwith Asphalt Wearing Surface\n\n\n\n\n\n\n\n"/>
+<!-- Masonry Arch Bridge-->
+        <Button
+            android:id = "@+id/bridge6"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/masonryarch"
+            android:layout_margin="10dp"
+            android:text="Masonry Arch Bridge\n\n\n\n\n\n\n"/>
+
+    </LinearLayout>
+
+</LinearLayout>

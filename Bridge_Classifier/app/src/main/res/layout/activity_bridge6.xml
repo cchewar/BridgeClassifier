@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.usma.park.bridge_classifier.bridge6"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Necessary Values:"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:text="Span Length\nCrown Thickness\nDepth of Fill"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:text="Roadway Width\nRise of Arch\nArch Properties" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!-- Curb to Curb Roadway Width in feet-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curb to Curb Roadway Width (Feet)"
+                android:textSize="24sp"/>
+            <EditText
+                android:id="@+id/roadwayWidth"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="text" />
+
+<!-- Profile Factors-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile Factors"
+                android:textSize="24sp"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/profilefactors"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Profile Factor"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/profileFactors"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="text" />
+
+<!-- Material Factors-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Material Factors"
+                android:textSize="24sp"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/materialfactors"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Material Factor"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/materialFactors"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="text" />
+<!-- Joint Factors-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joint Factors"
+                android:textSize="24sp"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/jointfactors"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Joint Factor"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/jointFactors"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="text" />
+<!-- Deformations-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deformations"
+                android:textSize="24sp"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/deformations"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Deformation Value"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/deformations"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="text" />
+<!-- Crack Factors-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crack Factors"
+                android:textSize="24sp"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/crackfactors"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Crack Factor"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/crackFactors"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="text" />
+<!-- Abutment Size Factors-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abutment Size Factors"
+                android:textSize="24sp"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/abutmentsizefactors"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Abutment Size Factor"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/abutmentSizeFactors"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="text" />
+<!-- Abutment Fault Factors-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abutment Fault Factors"
+                android:textSize="24sp"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/abutmentfaultfactors"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Abutment Fault Factor"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/abutmentFaultFactors"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="text" />
+
+<!-- Classify Button-->
+            <Button
+                android:id = "@+id/classify"
+                android:layout_height="40dp"
+                android:layout_width="100dp"
+                android:text="Continue"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

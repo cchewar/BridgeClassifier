@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.usma.park.bridge_classifier" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/engineerlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bridge1"
+            android:label="@string/title_activity_bridge1" >
+        </activity>
+        <activity
+            android:name=".Bridge2"
+            android:label="@string/title_activity_bridge2" >
+        </activity>
+        <activity
+            android:name=".Bridge3"
+            android:label="@string/title_activity_bridge3" >
+        </activity>
+        <activity
+            android:name=".Bridge4"
+            android:label="@string/title_activity_bridge4" >
+        </activity>
+        <activity
+            android:name=".Bridge5"
+            android:label="@string/title_activity_bridge5" >
+        </activity>
+        <activity
+            android:name=".Bridge6"
+            android:label="@string/title_activity_bridge6" >
+        </activity>
+        <activity
+            android:name=".Bridge1DeckClassification"
+            android:label="@string/title_activity_bridge1_deck_classification" >
+        </activity>
+        <activity
+            android:name=".Bridge1Final"
+            android:label="@string/title_activity_bridge1_final" >
+        </activity>
+        <activity
+            android:name=".Bridge2DeckClassification"
+            android:label="@string/title_activity_bridge2_deck_classification" >
+        </activity>
+        <activity
+            android:name=".Bridge2Final"
+            android:label="@string/title_activity_bridge2_final" >
+        </activity>
+        <activity
+            android:name=".Bridge3Final"
+            android:label="@string/title_activity_bridge3_final" >
+        </activity>
+        <activity
+            android:name=".Bridge4Final"
+            android:label="@string/title_activity_bridge4_final" >
+        </activity>
+        <activity
+            android:name=".Bridge5MomentClassification"
+            android:label="@string/title_activity_bridge5_moment_classification" >
+        </activity>
+        <activity
+            android:name=".Bridge5Final"
+            android:label="@string/title_activity_bridge5_final" >
+        </activity>
+        <activity
+            android:name=".Bridge6PLC"
+            android:label="@string/title_activity_bridge6_plc" >
+        </activity>
+        <activity
+            android:name=".Bridge6BridgeClass"
+            android:label="@string/title_activity_bridge6_bridge_class" >
+        </activity>
+        <activity
+            android:name=".Bridge6Final"
+            android:label="@string/title_activity_bridge6_final" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>
